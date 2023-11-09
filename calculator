@@ -1,0 +1,21 @@
+<!DOCTYPE html><!--css file-->
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="calculator01.css" type="text/css"> 
+</head>
+<body>
+    <div id="calculator">
+        <h1>Calculator</h1>
+        <input type="number" id="num1" placeholder="Number 1">
+        <br> <!--first nuber add here to calculate-->
+        <input type="number" id="num2" placeholder="Number 2">
+        <br> <!--second nuber add here to calculate-->
+        <button onclick="calculate('add')">+</button> <!-- This button for addition 2 numbers. -->
+        <button onclick="calculate('subtract')">-</button> <!-- This button for subtraction 2 numbers. -->
+        <button onclick="calculate('multiply')">*</button> <!-- This button for multiplication 2 numbers. -->
+        <button onclick="calculate('divide')">/</button> <!-- This button for dividishion 2 numbers. -->
+    </div>
+    <script src="calculator01.js"></script> <!--js file-->
+</body>
+</html>
